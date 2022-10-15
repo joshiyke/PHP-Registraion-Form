@@ -15,7 +15,7 @@
         $country = $_POST['country'];
         $gender = $_POST['gender'];
 
-        $client = [$fname, $lname, $date_of_birth, $gender, $country];
+        $client = [$fname, $lname, $date, $gender, $country];
 
         $filename = 'userdata.csv';
 
